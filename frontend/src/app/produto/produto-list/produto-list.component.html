@@ -1,0 +1,8 @@
+<h3>Lista de Produtos</h3>
+<ul>
+    <li *ngFor="let produto of produtos">
+        {{ produto.id }} - {{produto.nome}}
+        <button [routerLink]="['/produto','editar', produto.id]">Editar</button> -
+        <button (click)="confirmaRemocao(produto)">Excluir</button>
+    </li>
+</ul>

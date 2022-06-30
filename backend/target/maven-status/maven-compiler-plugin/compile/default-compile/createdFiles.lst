@@ -1,0 +1,6 @@
+com\ueg\progIII\config\WebConfig.class
+com\ueg\progIII\model\Produto.class
+com\ueg\progIII\controller\ProdutoController.class
+com\ueg\progIII\service\ProdutoService.class
+com\ueg\progIII\repository\ProdutoRepository.class
+com\ueg\progIII\Trabalho01Application.class

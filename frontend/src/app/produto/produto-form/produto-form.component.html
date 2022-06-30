@@ -1,0 +1,16 @@
+<h3>Formulário de Produto</h3>
+<form #formUsuario="ngForm">
+  <label>Nome do Produto:</label>
+  <input matInput
+         [(ngModel)]="produto.nome" name="nome"><br/>
+  <label>Data de Validade:</label>
+  <input matInput
+         [(ngModel)]="produto.dataValidade" name="dataValidade"><br />
+  <label>Peso:</label>
+  <input matInput
+         [(ngModel)]="produto.peso" name="peso"><br />
+  <label>Fabricante:</label>
+  <input matInput
+         [(ngModel)]="produto.fabricante" name="fabricante"><br />
+  <input type="button" title="Salvar" (click)="salvar(produto)" value="Enviar">
+</form>
