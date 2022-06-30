@@ -1,10 +1,3 @@
-<h1>Nutshell</h1>
+<h1>Trab01_Prog3</h1>
 
-Projeto Interdisciplinar de Desenvolvimento de Software - UEG Campus CET
-
-<h2>Integrantes</h2>
-
-* Emanoel Parente
-* Joao Augusto
-* Luis Felipe
-* Pedro Guilherme
+Trabalho realizado para a valiação da disciplina de Programação 03 da Universidade Estadual de Goiás - UEG Campus Central
